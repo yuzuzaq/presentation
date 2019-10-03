@@ -38,7 +38,7 @@ void ofApp::setup(){
     //拡散反射光
     light.setDiffuseColor(ofFloatColor(2.0,0.2,1.0));
     //鏡面反射光
-    light.setSpecularColor(ofFloatColor(1.0,1.0,1.0));
+    light.setSpecularColor(ofFloatColor(1.0,1.0,0.5));
 
     ofSetFrameRate(30);  //フレームレートは60fps
     ofBackground(0);  //背景は黒
